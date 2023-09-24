@@ -572,16 +572,18 @@ li>span img {
 }
 /* ---------Section 4----------*/
 .section-4{
-    height: 100vh;
+    height: 650px;
     background-color: rgb(242, 240, 232);
+    width: 100%;
 }
 .car-booking-heading{
-    padding-top: 2.5rem;
+    padding-top: 2.8rem;
     text-align: center;
-    font-weight: 500;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.text-content{
-    font-size: 10px;
+.textcontent{
+    font-size: 14px;
     width: 38%;
     margin: 0.5rem auto;
     text-align: center;
@@ -593,8 +595,8 @@ li>span img {
 .tag{
     margin-left: 10px;
     border: 1px solid rgb(224, 216, 216);
-    padding: 0 15px;
-    font-size: 10px;
+    padding: 2px 15px;
+    font-size: 12px;
     font-weight: 500;
     color: rgb(107, 103, 103);
     margin-top: 0.5rem;
@@ -602,9 +604,12 @@ li>span img {
 .tag img{
     height: 7px;
     width:10px;
-    margin-left: 3px;
+    margin-left:2px ;
 }
 /* SLider */
+.slide{
+    margin-top: 25px;
+}
 .slide-container{
     max-width: 1120px;
     width: 100%;
@@ -717,4 +722,50 @@ li>span img {
   .swiper-pagination-bullet-active{
     background-color: #4070F4;
   }
-  
+  .ad{
+    background-image: url('./Assest/add_cleanup.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    height: 370px;
+    /* border-radius: 50px;  */
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 25px;
+    /* padding: 10px; */
+}
+  #section5{
+    height: 600px;
+    width: 100%;
+  }
+  .height{
+    height: 100px;
+    z-index: -1;
+  }
+  .ad span{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 70px;
+    position: absolute;
+    margin-top: 100px;
+    font-size: large;
+    font-size: 18px;
+  }
+  #off{
+    font-size: 35px;
+    height: 35px;
+    color: white;
+    font-weight: bolder;
+  }
+  #time{
+    font-size: 35px;
+    height: 55px;
+    color: white;
+    font-weight: bolder;
+  }
+  .contentoff{
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 120px;
+  }
